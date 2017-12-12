@@ -1,8 +1,50 @@
-
-
-.section-ribbon{
-	border: 5px dotted black;
+.ribbon-left {
+	border-left: 5px dotted black;
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
 	height: 90px;
+	width: 100%;
 	background: #d52943;
 	vertical-align: middle;
+}
+
+.ribbon-middle-1 {
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
+	height: 90px;
+	width: 100%;
+	background: #d52943;
+	vertical-align: middle;
+	transition-property: transform;
+	transition-duration: 5s;
+	transition-timing-function: ease;
+}
+.ribbon-middle-2 {
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
+	height: 90px;
+	width: 100%;
+	background: #d52943;
+	vertical-align: middle;
+}
+.ribbon-right {
+	border-right: 5px dotted black;
+	border-top:5px dotted black;
+	border-bottom: 5px dotted black;
+	height: 90px;
+	width: 100%;
+	background: #d52943;
+	vertical-align: middle;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.ribbon-middle-1:hover {
+	transform: translateX(-200px);
+
 }
