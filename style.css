@@ -1,8 +1,37 @@
+/************************************************************
+** Nom du fichier / projet : style.css / Ribbon           **
+** Auteur: Grégory et Ana                                 **
+** Date de création: 12/12/17 12h55                       **
+** Date de modification: 12/12/17 12h57					  **
+** Description: feuille de style du projet Inauguration   ** 
+***********************************************************/
 
+
+
+/** header **/
+.txt-ribbon{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+
+
+/** body **/
 
 .section-ribbon{
 	border: 5px dotted black;
 	height: 90px;
 	background: #d52943;
 	vertical-align: middle;
+}
+
+/**section 2**/
+
+.date{
+	font-family: sans-serif;
+	padding: 4em;
+	display: block;
+	text-align: left;
+	color: #000;
+	font-size: x-large;
 }
