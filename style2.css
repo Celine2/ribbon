@@ -1,19 +1,42 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
 body{
 	background-color: #feed01;
 }
 
-.logo-cci, .logo-cci img{
-	width:75px;
-	height:75px;
-}
-
 .txt-remerciement{
+	margin-top: 6em;
+	margin-bottom: -6em;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Overlock',cursive;
 	font-size: x-large;
 }
 
+.toutes-les-images{
+	background-color: #fff;
+	margin-top: 20em;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.logo-cci, .logo-cci img{
+	width:200px;
+	height:200px;
+}
+
 .logo-rodez, .logo-rodez img{
-	width:75px;
-	height:75px;
+	width:200px;
+	height:200px;
+}
+
+.logo-agglo, .logo-agglo img{
+	width:250px;
+	height:250px;
+}
+
+.logo-en, .logo-en img{
+	width:200px;
+	height:100px;
 }
