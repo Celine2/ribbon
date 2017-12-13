@@ -1,0 +1,19 @@
+body{
+	background-color: #feed01;
+}
+
+.logo-cci, .logo-cci img{
+	width:75px;
+	height:75px;
+}
+
+.txt-remerciement{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+
+.logo-rodez, .logo-rodez img{
+	width:75px;
+	height:75px;
+}
