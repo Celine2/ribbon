@@ -7,10 +7,13 @@
 ** Description: feuille de style du projet Inauguration   ** 
 ***********************************************************/
 
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Overlock');
 /** header **/
 body{
 	
 	background-color: #feed01;
+	cursor: url("images/scissors.png"), pointer;
 }
 
 .imageDeFond {
@@ -173,7 +176,7 @@ margin-left: 300px;
 
 .txt-ribbon{
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Overlock',cursive;
 	font-size: x-large;
 }
 
