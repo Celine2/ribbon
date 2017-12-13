@@ -8,6 +8,19 @@
 ***********************************************************/
 
 /** header **/
+body{
+	
+	background-color: #feed01;
+}
+
+.imageDeFond {
+	display: block;
+	background-image: url ("https://uploads.lebonbon.fr/source/2017/toulouse_2017/logo-occitanie-pyrenees-mediterannee.jpg");
+    width: 75%;
+    height: 50%;
+    margin-left: auto;
+    margin-top: auto;
+}
 .confetti
 {
 width: 20px;
@@ -17,19 +30,20 @@ margin-top: -100px;
 -webkit-border-radius: 30px;
 border-radius: 30px;
 position:relative;
-animation:confetti 6s;
--webkit-animation:confetti 6s;
+animation:confetti 3s;
+-webkit-animation:confetti 3s;
+animation-direction: alternate-reverse;
 animation-iteration-count: infinite;
 -moz-animation-iteration-count: infinite;
 -webkit-animation-iteration-count: infinite;
--o-animation-iteration-count: infinite; /* Safari and Chrome */
+-o-animation-iteration-count: infinite;
 }
 @keyframes confetti
 {
 0% {top:0px;}
 100% {top:1500px;}
 }
-@-webkit-keyframes confetti /* Safari and Chrome */
+@-webkit-keyframes confetti
 {
 0% {top:0px;}
 100% {top:1500px;}
@@ -79,7 +93,7 @@ margin-left: 100px;
 background-color: #5e625c;
 }
 .confetti8 {
-margin-left: 200px;
+margin-left: 1200px;
 }
 .confetti9 {
 margin-left: 900px;
@@ -92,7 +106,7 @@ animation-delay:2.5s;
 margin-left: 550px;
 }
 .confetti11 {
-margin-left: 350;
+margin-left: 350px;
 animation-delay:2s;
 -webkit-animation-delay:2s;
 }
@@ -100,15 +114,15 @@ animation-delay:2s;
 background-color: #f5d44d;
 }
 .confetti12 {
-margin-left: 350;
+margin-left: 1100px;
 }
 .confetti13 {
-margin-left: 620;
+margin-left: 620px;
 animation-delay:4s;
 -webkit-animation-delay:4s;
 }
 .confetti14 {
-margin-left: 570;
+margin-left: 570px;
 }
 .confetti15, .confetti16, .confetti17, .confetti18 {
 background-color: #e44301;
@@ -143,6 +157,18 @@ margin-left: 850px;
 .confetti21 {
 margin-left: 200px;
 }
+.confetti1, .confetti2 {
+background-color: #a4b1a5;
+}
+.confetti1 {
+margin-left: 50px;
+animation-delay:1s;
+-webkit-animation-delay:1s;
+}
+.confetti2 {
+margin-left: 300px;
+}
+
 
 
 .txt-ribbon{
@@ -159,7 +185,7 @@ margin-left: 200px;
 
 	height: 90px;
 	width: 100%;
-	background: #d52943;
+	background: #c90205;
 	vertical-align: middle;
 }
 
@@ -177,37 +203,13 @@ margin-left: 200px;
 
 }
 
-.confetti1, .confetti2 {
-background-color: #a4b1a5;
-}
-.confetti1 {
-margin-left: 50px;
-animation-delay:1s;
--webkit-animation-delay:1s;
-}
-.confetti2 {
-margin-left: 300px;
-}
-
-/**section 2**/
-
-.date{
-	font-family: sans-serif;
-	padding: 4em;
-	display: block;
-	text-align: left;
-	color: #000;
-	font-size: x-large;
-}
-
-
 .ribbon-left {
 	border-left: 5px dotted black;
 	border-top: 5px dotted black;
 	border-bottom: 5px dotted black;
 	height: 90px;
 	width: 100%;
-	background: #d52943;
+	background: #c90205;
 	vertical-align: middle;
 }
 
@@ -216,7 +218,7 @@ margin-left: 300px;
 	border-bottom: 5px dotted black;
 	height: 90px;
 	width: 100%;
-	background: #d52943;
+	background: #c90205;
 	vertical-align: middle;
 	transition-property: transform;
 	transition-duration: 5s;
@@ -227,10 +229,24 @@ margin-left: 300px;
 	border-bottom: 5px dotted black;
 	height: 90px;
 	width: 100%;
-	background: #d52943;
+	background: #c90205;
 	vertical-align: middle;
 }
 .ribbon-right {
 	border-right: 5px dotted black;
 	border-top:5px dotted black;
 	border-bottom: 5px dotted black;
+}
+
+/**section 2**/
+
+.date h2 {
+	font-family: sans-serif;
+	padding: 4em;
+	display: block;
+	text-align: left;
+	color: #000;
+	font-size: x-large;
+}
+
+
