@@ -1,4 +1,3 @@
-/*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Overlock');
 
 body{
@@ -6,19 +5,22 @@ body{
 }
 
 .txt-remerciement{
-	margin-top: 6em;
-	margin-bottom: -6em;
+	margin-top: 3em; 
 	text-align: center;
 	font-family: 'Overlock',cursive;
-	font-size: x-large;
+	font-weight: bold; 
+	font-size: 40px;
 }
 
-.toutes-les-images{
+footer{
 	background-color: #fff;
-	margin-top: 20em;
+	margin-top: 8em;
+}
+
+.toutes-les-images {
 	display: flex;
-	justify-content: center;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .logo-cci, .logo-cci img{
