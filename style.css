@@ -19,7 +19,7 @@ body{
 .imageDeFond {
 	display: block;
 	background-image: url ("https://uploads.lebonbon.fr/source/2017/toulouse_2017/logo-occitanie-pyrenees-mediterannee.jpg");
-    width: 75%;
+    width: 90%;
     height: 50%;
     margin-left: auto;
     margin-top: auto;
@@ -238,12 +238,12 @@ margin-left: 300px;
 /**section 2**/
 
 .date h2 {
-	font-family: sans-serif;
+	font-family: 'Overlock',cursive;
 	padding: 4em;
 	display: block;
 	text-align: left;
 	color: #000;
-	font-size: x-large;
+	font-size: xx-large;
 }
 
 
