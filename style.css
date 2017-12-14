@@ -14,15 +14,16 @@ body{
 	
 	background-color: #feed01;
 	cursor: url("images/scissors.png"), pointer;
+	/*background-image: url("images/logo-occitanie-pyrenees-mediterannee.jpg");*/
 }
 
 .imageDeFond {
-	display: block;
-	background-image: url ("https://uploads.lebonbon.fr/source/2017/toulouse_2017/logo-occitanie-pyrenees-mediterannee.jpg");
-    width: 90%;
-    height: 50%;
-    margin-left: auto;
-    margin-top: auto;
+	text-align: center;   
+	background-color: #c90205;*/
+}
+
+.log-occitanie{
+	height: 180px;
 }
 .confetti
 {
@@ -184,7 +185,7 @@ margin-left: 300px;
 /** body **/
 
 .section-ribbon{
-	border: 5px dotted black;
+	border: 5px dotted #feed01;
 	height: 90px;
 	width: 100%;
 	background: #c90205;
@@ -200,9 +201,9 @@ margin-left: 300px;
 }
 
 .ribbon-left {
-	border-left: 5px dotted black;
-	border-top: 5px dotted black;
-	border-bottom: 5px dotted black;
+	border-left: 5px dotted #feed01;
+	border-top: 5px dotted #feed01;
+	border-bottom: 5px dotted #feed01;
 	height: 90px;
 	width: 100%;
 	background: #c90205;
@@ -210,8 +211,8 @@ margin-left: 300px;
 }
 
 .ribbon-middle-1 {
-	border-top: 5px dotted black;
-	border-bottom: 5px dotted black;
+	border-top: 5px dotted #feed01;
+	border-bottom: 5px dotted #feed01;
 	height: 90px;
 	width: 100%;
 	background: #c90205;
@@ -222,17 +223,18 @@ margin-left: 300px;
 	text-align: center
 }
 .ribbon-middle-2 {
-	border-top: 5px dotted black;
-	border-bottom: 5px dotted black;
+	border-top: 5px dotted #feed01;
+	border-bottom: 5px dotted #feed01;
+	border-right: 5px dotted #feed01;
 	height: 90px;
 	width: 100%;
 	background: #c90205;
 	vertical-align: middle;
 }
 .ribbon-right {
-	border-right: 5px dotted black;
-	border-top:5px dotted black;
-	border-bottom: 5px dotted black;
+	border-right: 5px dotted #feed01;
+	border-top:5px dotted #feed01;
+	border-bottom: 5px dotted #feed01;
 }
 
 /**section 2**/
