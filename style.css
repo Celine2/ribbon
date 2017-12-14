@@ -185,7 +185,6 @@ margin-left: 300px;
 
 .section-ribbon{
 	border: 5px dotted black;
-
 	height: 90px;
 	width: 100%;
 	background: #c90205;
@@ -194,16 +193,10 @@ margin-left: 300px;
 
 .container {
 	display: flex;
-	justify-content: ce
-	nter;
+	justify-content: center;
 	justify-content: space-around;
 	align-items: center;
 	height: 30vh;
-}
-
-.ribbon-middle-1:hover {
-	transform: translateX(-200px);
-
 }
 
 .ribbon-left {
@@ -224,8 +217,9 @@ margin-left: 300px;
 	background: #c90205;
 	vertical-align: middle;
 	transition-property: transform;
-	transition-duration: 5s;
+	transition-duration: 1s;
 	transition-timing-function: ease;
+	text-align: center
 }
 .ribbon-middle-2 {
 	border-top: 5px dotted black;
