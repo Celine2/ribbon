@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Overlock');
 
 body{
+	margin: 0;
 	background-color: #feed01;
 }
 
@@ -10,12 +11,14 @@ body{
 }
 
 .log-occitanie{
+	padding-bottom: 2em;
+	padding-top: 2em;
 	height: 180px;
 }
 .arrow{
 	text-align: center;
 	margin-left: 1000px;
-	margin-top:-125px;
+	margin-top:-170px;
 }
 body .fleche{
 	height: 50px;
@@ -35,7 +38,7 @@ body .text-fleche{
 	font-family: 'Overlock',cursive;
 	font-weight: bold; 
 	font-size: 40px;
-	padding-top: 0.9em;
+	padding-top: 1.8em;
 	padding-bottom: 0.1em;
 
 }
