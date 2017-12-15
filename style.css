@@ -51,7 +51,9 @@ body .text-fleche{
 	font-size: 40px;
 }
 
-
+footer{
+	padding-top: 1.2em;
+}
 /** body **/
 
 .section-ribbon{
@@ -81,6 +83,7 @@ body .text-fleche{
 }
 
 .ribbon-middle-1 {
+	text-align: center;
 	border-top: 5px dotted #feed01;
 	border-bottom: 5px dotted #feed01;
 	height: 90px;
@@ -91,6 +94,11 @@ body .text-fleche{
 	transition-duration: 1s;
 	transition-timing-function: ease;
 	text-align: center
+}
+.ribbon-middle-1 img{
+	height: 50px;
+	line-height: 500px;
+
 }
 .ribbon-middle-2 {
 	text-align: center;
