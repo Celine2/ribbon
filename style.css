@@ -12,7 +12,8 @@
 /** header **/
 body{
 	margin: 0;
-	background-color: #feed01;
+	background-color: #feed01;	
+	background-color: #fff;
 	/*cursor: url("images/scissors.png"), pointer;*/
 	/*background-image: url("images/logo-occitanie-pyrenees-mediterannee.jpg");*/
 }
@@ -128,4 +129,6 @@ footer{
 	font-size: xx-large;
 }
 
-
+.copyright {
+	text-align: center;
+}
