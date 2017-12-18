@@ -18,8 +18,9 @@ body{
 }
 .arrow{
 	text-align: center;
-	margin-left: 1000px;
-	margin-top:-170px;
+	position: absolute;
+	top: 70px;
+	right: 30px;
 }
 body .fleche{
 	height: 50px;
