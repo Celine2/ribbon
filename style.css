@@ -11,8 +11,9 @@
 @import url('https://fonts.googleapis.com/css?family=Overlock');
 /** header **/
 body{
-	
-	background-color: #feed01;
+	margin: 0;
+	background-color: #feed01;	
+	background-color: #fff;
 	/*cursor: url("images/scissors.png"), pointer;*/
 	/*background-image: url("images/logo-occitanie-pyrenees-mediterannee.jpg");*/
 }
@@ -26,13 +27,15 @@ body section, body footer{
 }
 
 .log-occitanie{
+	padding-bottom: 2em;
+	padding-top: 2em;
 	height: 180px;
 }
 
 .arrow{
 	text-align: center;
 	margin-left: 1000px;
-	margin-top:-125px;
+	margin-top:-170px;
 }
 body .fleche{
 	height: 50px;
@@ -44,7 +47,7 @@ body .text-fleche{
 
 
 .txt-ribbon{
-	padding-top: 0.8em;
+	padding-top: 1.8em;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Overlock',cursive;
@@ -52,7 +55,8 @@ body .text-fleche{
 }
 
 footer{
-	padding-top: 1.2em;
+	padding-top: 0.5em;
+	text-align: center;
 }
 /** body **/
 
@@ -73,22 +77,21 @@ footer{
 }
 
 .ribbon-left {
-	border-left: 5px dotted #feed01;
-	border-top: 5px dotted #feed01;
-	border-bottom: 5px dotted #feed01;
-	height: 90px;
+	height: 45px;
 	width: 100%;
-	background: #c90205;
 	vertical-align: middle;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
 }
 
 .ribbon-middle-1 {
 	text-align: center;
-	border-top: 5px dotted #feed01;
-	border-bottom: 5px dotted #feed01;
-	height: 90px;
+	height: 45px;
 	width: 100%;
-	background: #c90205;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
 	vertical-align: middle;
 	transition-property: transform;
 	transition-duration: 1s;
@@ -103,19 +106,16 @@ footer{
 .ribbon-middle-2 {
 	text-align: center;
 	/*color: #feed01;*/
-	font-size: 2em;
-	border-top: 5px dotted #feed01;
-	border-bottom: 5px dotted #feed01;
-	border-right: 5px dotted #feed01;
-	height: 90px;
+	height: 45px;
 	width: 100%;
-	background: #c90205;
+	background-color: #fff;
+	border-top: 3em solid #002395;
+	border-bottom: 3em solid #d61b24;
 	vertical-align: middle;
 }
 .ribbon-right {
-	border-right: 5px dotted #feed01;
-	border-top:5px dotted #feed01;
-	border-bottom: 5px dotted #feed01;
+
+
 }
 
 /**section 2**/
@@ -129,4 +129,6 @@ footer{
 	font-size: xx-large;
 }
 
-
+.copyright {
+	text-align: center;
+}
